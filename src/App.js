@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import EmployeesTable from './components/EmployeesTable';
 import Employees from './utils/Employees';
 
+
 const App = () => {
   // created employees state for storing Employees array
   const [employees] = React.useState(Employees);
