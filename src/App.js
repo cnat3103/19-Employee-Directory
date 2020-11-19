@@ -5,16 +5,13 @@ import Employees from './utils/Employees';
 
 
 const App = () => {
-  // created employees state for storing Employees array
   const [employees] = React.useState(Employees);
   const [searchTerm, setSearchTerm] = React.useState('');
-
-  // receive callback from Navbar and setSearchTerm
   const handleSearch = event => {
     setSearchTerm(event.target.value);
   }
 
-  // search employee and return search results
+  
   const searchedEmployees = employees.filter(result => {
     const searchBylastName = result.lastName.toLowerCase().includes(searchTerm.toLowerCase());
     const searchByfirstName = result.firstName.toLowerCase().includes(searchTerm.toLowerCase());

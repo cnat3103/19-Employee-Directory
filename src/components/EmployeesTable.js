@@ -35,7 +35,7 @@ const useSortableData = (employees, config = null) => {
   return { employees: sortedItems, requestSort, sortConfig };
 };
 
-// EmployeesTable returns the table
+
 const EmployeesTable = (props) => {
   const { employees, requestSort, sortConfig } = useSortableData(props.employees);
   const getClassNamesFor = (name) => {
