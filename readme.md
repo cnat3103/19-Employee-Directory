@@ -4,7 +4,7 @@
 A react app that allows the user to view the entire employee directory at once so that the User has quick access to their information
 
 ## Preview
-![Preview](ETPreview.png)
+![Preview](EDPreview.png)
 
 ## Badges
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
@@ -31,7 +31,11 @@ The application is simple to use - we would encourage anyone experiencing diffic
 MIT license
 
 ## Contribution
-The design and content of the application is derived from a review of material provided by Trilogy Education Service in Unit 19 and youtube content available here for the deploy: https://www.youtube.com/watch?v=1wDzEjXbblM.
+The design and content of the application is derived from a review of material provided by Trilogy Education Service in Unit 19.
+
+PLEASE NOTE - the basis for the logic was provided at the following source: https://codesandbox.io/s/objective-kepler-xu5y1?file=/src/index.js. It was here that I retrieved the basis for the filter and sorter functions.
+
+Youtube content available here assisted with the deploy on Github Pages: https://www.youtube.com/watch?v=1wDzEjXbblM.
 
 ## Collaborators
 There are many ways in which you can participate in the project, for example:
